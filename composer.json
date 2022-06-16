@@ -1,0 +1,21 @@
+{
+  "name": "deck/deck-application",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "maatcode",
+      "email": "maatcode@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ~8.0.0 || ~8.1.0",
+    "league/container": "4.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Deck\\Application\\": "src"
+    }
+  }
+}
